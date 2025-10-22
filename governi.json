@@ -1,0 +1,102 @@
+[
+    {
+        "nazione": "Stati Uniti",
+        "governo": "Repubblica Presidenziale Federale",
+        "bandiera": "https://flagcdn.com/w320/us.png"
+    },
+    {
+        "nazione": "Regno Unito",
+        "governo": "Monarchia Costituzionale Parlamentare",
+        "bandiera": "https://flagcdn.com/w320/gb.png"
+    },
+    {
+        "nazione": "Francia",
+        "governo": "Repubblica Semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/fr.png"
+    },
+    {
+        "nazione": "Germania",
+        "governo": "Repubblica Parlamentare Federale",
+        "bandiera": "https://flagcdn.com/w320/de.png"
+    },
+    {
+        "nazione": "Italia",
+        "governo": "Repubblica Parlamentare",
+        "bandiera": "https://flagcdn.com/w320/it.png"
+    },
+    {
+        "nazione": "Cina",
+        "governo": "Repubblica Popolare Socialista a Partito Unico",
+        "bandiera": "https://flagcdn.com/w320/cn.png"
+    },
+    {
+        "nazione": "Russia",
+        "governo": "Repubblica Federale Semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/ru.png"
+    },
+    {
+        "nazione": "Giappone",
+        "governo": "Monarchia Costituzionale Parlamentare",
+        "bandiera": "https://flagcdn.com/w320/jp.png"
+    },
+    {
+        "nazione": "Brasile",
+        "governo": "Repubblica Federale Presidenziale",
+        "bandiera": "https://flagcdn.com/w320/br.png"
+    },
+    {
+        "nazione": "India",
+        "governo": "Repubblica Parlamentare Federale",
+        "bandiera": "https://flagcdn.com/w320/in.png"
+    },
+    {
+        "nazione": "Spagna",
+        "governo": "Monarchia Costituzionale Parlamentare",
+        "bandiera": "https://flagcdn.com/w320/es.png"
+    },
+    {
+        "nazione": "Canada",
+        "governo": "Monarchia Costituzionale Parlamentare",
+        "bandiera": "https://flagcdn.com/w320/ca.png"
+    },
+    {
+        "nazione": "Australia",
+        "governo": "Monarchia Costituzionale Parlamentare",
+        "bandiera": "https://flagcdn.com/w320/au.png"
+    },
+    {
+        "nazione": "Messico",
+        "governo": "Repubblica Presidenziale Federale",
+        "bandiera": "https://flagcdn.com/w320/mx.png"
+    },
+    {
+        "nazione": "Argentina",
+        "governo": "Repubblica Presidenziale Federale",
+        "bandiera": "https://flagcdn.com/w320/ar.png"
+    },
+    {
+        "nazione": "Sudafrica",
+        "governo": "Repubblica Parlamentare",
+        "bandiera": "https://flagcdn.com/w320/za.png"
+    },
+    {
+        "nazione": "Corea del Sud",
+        "governo": "Repubblica Presidenziale",
+        "bandiera": "https://flagcdn.com/w320/kr.png"
+    },
+    {
+        "nazione": "Turchia",
+        "governo": "Repubblica Presidenziale",
+        "bandiera": "https://flagcdn.com/w320/tr.png"
+    },
+    {
+        "nazione": "Arabia Saudita",
+        "governo": "Monarchia Assoluta",
+        "bandiera": "https://flagcdn.com/w320/sa.png"
+    },
+    {
+        "nazione": "Iran",
+        "governo": "Repubblica Islamica",
+        "bandiera": "https://flagcdn.com/w320/ir.png"
+    }
+]
