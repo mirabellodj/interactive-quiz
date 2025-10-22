@@ -1,104 +1,224 @@
 // Quiz data - embedded directly in the script
 const countriesData = [
     {
-        "nazione": "Stati Uniti",
-        "governo": "Repubblica Presidenziale Federale",
-        "bandiera": "https://flagcdn.com/w320/us.png"
-    },
-    {
-        "nazione": "Regno Unito",
-        "governo": "Monarchia Costituzionale Parlamentare",
-        "bandiera": "https://flagcdn.com/w320/gb.png"
-    },
-    {
         "nazione": "Francia",
-        "governo": "Repubblica Semipresidenziale",
+        "governo": "Repubblica semipresidenziale",
         "bandiera": "https://flagcdn.com/w320/fr.png"
     },
     {
         "nazione": "Germania",
-        "governo": "Repubblica Parlamentare Federale",
+        "governo": "Repubblica parlamentare federale",
         "bandiera": "https://flagcdn.com/w320/de.png"
     },
     {
+        "nazione": "Svizzera",
+        "governo": "Repubblica federale collegiale",
+        "bandiera": "https://flagcdn.com/w320/ch.png"
+    },
+    {
+        "nazione": "Austria",
+        "governo": "Repubblica parlamentare federale",
+        "bandiera": "https://flagcdn.com/w320/at.png"
+    },
+    {
+        "nazione": "Belgio",
+        "governo": "Monarchia costituzionale parlamentare (Stato federale)",
+        "bandiera": "https://flagcdn.com/w320/be.png"
+    },
+    {
+        "nazione": "Paesi Bassi",
+        "governo": "Monarchia costituzionale parlamentare",
+        "bandiera": "https://flagcdn.com/w320/nl.png"
+    },
+    {
+        "nazione": "Lussemburgo",
+        "governo": "Monarchia costituzionale parlamentare",
+        "bandiera": "https://flagcdn.com/w320/lu.png"
+    },
+    {
+        "nazione": "Monaco",
+        "governo": "Monarchia costituzionale",
+        "bandiera": "https://flagcdn.com/w320/mc.png"
+    },
+    {
+        "nazione": "Liechtenstein",
+        "governo": "Monarchia costituzionale (principato)",
+        "bandiera": "https://flagcdn.com/w320/li.png"
+    },
+    {
         "nazione": "Italia",
-        "governo": "Repubblica Parlamentare",
+        "governo": "Repubblica parlamentare",
         "bandiera": "https://flagcdn.com/w320/it.png"
     },
     {
-        "nazione": "Cina",
-        "governo": "Repubblica Popolare Socialista a Partito Unico",
-        "bandiera": "https://flagcdn.com/w320/cn.png"
-    },
-    {
-        "nazione": "Russia",
-        "governo": "Repubblica Federale Semipresidenziale",
-        "bandiera": "https://flagcdn.com/w320/ru.png"
-    },
-    {
-        "nazione": "Giappone",
-        "governo": "Monarchia Costituzionale Parlamentare",
-        "bandiera": "https://flagcdn.com/w320/jp.png"
-    },
-    {
-        "nazione": "Brasile",
-        "governo": "Repubblica Federale Presidenziale",
-        "bandiera": "https://flagcdn.com/w320/br.png"
-    },
-    {
-        "nazione": "India",
-        "governo": "Repubblica Parlamentare Federale",
-        "bandiera": "https://flagcdn.com/w320/in.png"
-    },
-    {
         "nazione": "Spagna",
-        "governo": "Monarchia Costituzionale Parlamentare",
+        "governo": "Monarchia costituzionale parlamentare",
         "bandiera": "https://flagcdn.com/w320/es.png"
     },
     {
-        "nazione": "Canada",
-        "governo": "Monarchia Costituzionale Parlamentare",
-        "bandiera": "https://flagcdn.com/w320/ca.png"
+        "nazione": "Portogallo",
+        "governo": "Repubblica semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/pt.png"
     },
     {
-        "nazione": "Australia",
-        "governo": "Monarchia Costituzionale Parlamentare",
-        "bandiera": "https://flagcdn.com/w320/au.png"
+        "nazione": "Andorra",
+        "governo": "Diarchia parlamentare (coprincipato)",
+        "bandiera": "https://flagcdn.com/w320/ad.png"
     },
     {
-        "nazione": "Messico",
-        "governo": "Repubblica Presidenziale Federale",
-        "bandiera": "https://flagcdn.com/w320/mx.png"
+        "nazione": "San Marino",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/sm.png"
     },
     {
-        "nazione": "Argentina",
-        "governo": "Repubblica Presidenziale Federale",
-        "bandiera": "https://flagcdn.com/w320/ar.png"
+        "nazione": "Città del Vaticano",
+        "governo": "Monarchia assoluta elettiva (teocrazia)",
+        "bandiera": "https://flagcdn.com/w320/va.png"
     },
     {
-        "nazione": "Sudafrica",
-        "governo": "Repubblica Parlamentare",
-        "bandiera": "https://flagcdn.com/w320/za.png"
+        "nazione": "Malta",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/mt.png"
     },
     {
-        "nazione": "Corea del Sud",
-        "governo": "Repubblica Presidenziale",
-        "bandiera": "https://flagcdn.com/w320/kr.png"
+        "nazione": "Danimarca",
+        "governo": "Monarchia costituzionale parlamentare",
+        "bandiera": "https://flagcdn.com/w320/dk.png"
     },
     {
-        "nazione": "Turchia",
-        "governo": "Repubblica Presidenziale",
-        "bandiera": "https://flagcdn.com/w320/tr.png"
+        "nazione": "Svezia",
+        "governo": "Monarchia costituzionale parlamentare",
+        "bandiera": "https://flagcdn.com/w320/se.png"
     },
     {
-        "nazione": "Arabia Saudita",
-        "governo": "Monarchia Assoluta",
-        "bandiera": "https://flagcdn.com/w320/sa.png"
+        "nazione": "Norvegia",
+        "governo": "Monarchia costituzionale parlamentare",
+        "bandiera": "https://flagcdn.com/w320/no.png"
     },
     {
-        "nazione": "Iran",
-        "governo": "Repubblica Islamica",
-        "bandiera": "https://flagcdn.com/w320/ir.png"
+        "nazione": "Finlandia",
+        "governo": "Repubblica semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/fi.png"
+    },
+    {
+        "nazione": "Islanda",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/is.png"
+    },
+    {
+        "nazione": "Irlanda",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/ie.png"
+    },
+    {
+        "nazione": "Regno Unito",
+        "governo": "Monarchia costituzionale parlamentare",
+        "bandiera": "https://flagcdn.com/w320/gb.png"
+    },
+    {
+        "nazione": "Polonia",
+        "governo": "Repubblica semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/pl.png"
+    },
+    {
+        "nazione": "Cechia",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/cz.png"
+    },
+    {
+        "nazione": "Slovacchia",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/sk.png"
+    },
+    {
+        "nazione": "Ungheria",
+        "governo": "Repubblica parlamentare (regime illiberale)",
+        "bandiera": "https://flagcdn.com/w320/hu.png"
+    },
+    {
+        "nazione": "Slovenia",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/si.png"
+    },
+    {
+        "nazione": "Croazia",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/hr.png"
+    },
+    {
+        "nazione": "Bosnia ed Erzegovina",
+        "governo": "Repubblica parlamentare collegiale (Stato federale)",
+        "bandiera": "https://flagcdn.com/w320/ba.png"
+    },
+    {
+        "nazione": "Serbia",
+        "governo": "Repubblica semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/rs.png"
+    },
+    {
+        "nazione": "Montenegro",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/me.png"
+    },
+    {
+        "nazione": "Kosovo",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/xk.png"
+    },
+    {
+        "nazione": "Albania",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/al.png"
+    },
+    {
+        "nazione": "Macedonia del Nord",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/mk.png"
+    },
+    {
+        "nazione": "Bulgaria",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/bg.png"
+    },
+    {
+        "nazione": "Romania",
+        "governo": "Repubblica semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/ro.png"
+    },
+    {
+        "nazione": "Moldavia",
+        "governo": "Repubblica semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/md.png"
+    },
+    {
+        "nazione": "Ucraina",
+        "governo": "Repubblica semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/ua.png"
+    },
+    {
+        "nazione": "Bielorussia",
+        "governo": "Repubblica presidenziale autoritaria",
+        "bandiera": "https://flagcdn.com/w320/by.png"
+    },
+    {
+        "nazione": "Russia",
+        "governo": "Repubblica federale presidenziale autoritaria",
+        "bandiera": "https://flagcdn.com/w320/ru.png"
+    },
+    {
+        "nazione": "Lituania",
+        "governo": "Repubblica semipresidenziale",
+        "bandiera": "https://flagcdn.com/w320/lt.png"
+    },
+    {
+        "nazione": "Lettonia",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/lv.png"
+    },
+    {
+        "nazione": "Estonia",
+        "governo": "Repubblica parlamentare",
+        "bandiera": "https://flagcdn.com/w320/ee.png"
     }
 ];
 
@@ -106,20 +226,20 @@ let quizData = [];
 
 // All possible government types for generating wrong options
 const allGovernmentTypes = [
-    "Repubblica Presidenziale Federale",
-    "Monarchia Costituzionale Parlamentare",
-    "Repubblica Semipresidenziale",
-    "Repubblica Parlamentare Federale",
-    "Repubblica Parlamentare",
-    "Repubblica Popolare Socialista a Partito Unico",
-    "Repubblica Federale Semipresidenziale",
-    "Monarchia Assoluta",
-    "Dittatura Militare",
-    "Repubblica Federale",
-    "Monarchia Costituzionale",
-    "Repubblica Presidenziale",
-    "Teocrazia",
-    "Repubblica Islamica"
+    "Repubblica semipresidenziale",
+    "Repubblica parlamentare federale",
+    "Repubblica federale collegiale",
+    "Monarchia costituzionale parlamentare (Stato federale)",
+    "Monarchia costituzionale parlamentare",
+    "Monarchia costituzionale",
+    "Monarchia costituzionale (principato)",
+    "Repubblica parlamentare",
+    "Diarchia parlamentare (coprincipato)",
+    "Monarchia assoluta elettiva (teocrazia)",
+    "Repubblica parlamentare (regime illiberale)",
+    "Repubblica parlamentare collegiale (Stato federale)",
+    "Repubblica presidenziale autoritaria",
+    "Repubblica federale presidenziale autoritaria"
 ];
 
 // Function to generate wrong options
@@ -321,3 +441,4 @@ nextButton.addEventListener('click', nextQuestion);
 
 // Start the quiz
 initializeQuiz();
+
