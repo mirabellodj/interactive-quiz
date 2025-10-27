@@ -3,36 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz sui Governi del Mondo</title>
+    <title>Quiz Interattivi</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .quiz-selection {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .quiz-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .quiz-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .quiz-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .quiz-card h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .quiz-card p {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+
+        .home-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .home-header h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .home-header .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Quiz sui Governi del Mondo</h1>
-            <p>Seleziona il tipo di governo corretto per ogni paese mostrato.</p>
+        <div class="home-header">
+            <h1>🎓 Quiz Interattivi</h1>
+            <p class="subtitle">Scegli un quiz e metti alla prova le tue conoscenze!</p>
             <p class="dedication">Con amore per la mia sorellina ❤️</p>
-        </header>
+        </div>
 
-        <div id="quiz-container" class="quiz-container">
-            <div id="question-container">
-                <div class="country-card">
-                    <h2 id="country">Caricamento...</h2>
-                </div>
-                <div id="options" class="options-container">
-                    <!-- Options will be inserted here by JavaScript -->
-                </div>
-            </div>
-            
-            <div class="controls">
-                <div id="score">Punteggio: <span>0</span></div>
-                <button id="next-btn" class="next-btn">Prossimo</button>
-            </div>
-            
-            <div id="result" class="result"></div>
+        <div class="quiz-selection">
+            <a href="quiz-governi.html" class="quiz-card">
+                <div class="quiz-icon">🌍</div>
+                <h2>Quiz sui Governi Europei</h2>
+                <p>Metti alla prova la tua conoscenza dei sistemi di governo dei paesi europei. Riconosci le bandiere e indovina il tipo di governo!</p>
+            </a>
+
+            <a href="quiz-costituzione.html" class="quiz-card">
+                <div class="quiz-icon">⚖️</div>
+                <h2>Quiz sulla Costituzione</h2>
+                <p>Testa la tua conoscenza degli articoli della Costituzione Italiana. Quanto conosci i principi fondamentali del nostro ordinamento?</p>
+            </a>
         </div>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
+
