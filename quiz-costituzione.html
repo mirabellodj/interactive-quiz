@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sulla Costituzione Italiana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-btn">← Torna alla Home</a>
+            <h1>Quiz sulla Costituzione Italiana</h1>
+            <p>Metti alla prova la tua conoscenza degli articoli della Costituzione.</p>
+            <p class="dedication">Con amore per la mia sorellina ❤️</p>
+        </header>
+
+        <div id="quiz-container" class="quiz-container">
+            <div id="question-container">
+                <div class="article-card">
+                    <div class="article-number" id="article-number">Caricamento...</div>
+                    <div class="article-text" id="article-text">Caricamento dei dati...</div>
+                </div>
+                <div class="question-prompt">
+                    <p>Seleziona la definizione corretta per questo articolo:</p>
+                </div>
+                <div id="options" class="options-container">
+                    <!-- Options will be inserted here by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="controls">
+                <div id="score">Punteggio: <span>0</span></div>
+                <button id="next-btn" class="next-btn">Prossimo</button>
+            </div>
+            
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+
+    <script src="script-costituzione.js"></script>
+</body>
+</html>

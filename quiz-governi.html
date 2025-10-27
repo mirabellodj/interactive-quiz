@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sui Governi Europei</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-btn">← Torna alla Home</a>
+            <h1>Quiz sui Governi Europei</h1>
+            <p>Seleziona il tipo di governo corretto per ogni paese europeo mostrato.</p>
+            <p class="dedication">Con amore per la mia sorellina ❤️</p>
+        </header>
+
+        <div id="quiz-container" class="quiz-container">
+            <div id="question-container">
+                <div class="country-card">
+                    <h2 id="country">Caricamento...</h2>
+                </div>
+                <div id="options" class="options-container">
+                    <!-- Options will be inserted here by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="controls">
+                <div id="score">Punteggio: <span>0</span></div>
+                <button id="next-btn" class="next-btn">Prossimo</button>
+            </div>
+            
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+
+    <script src="script-governi.js"></script>
+</body>
+</html>
