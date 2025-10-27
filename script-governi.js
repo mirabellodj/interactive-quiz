@@ -12,7 +12,7 @@ const countriesData = [
     },
     {
         "nazione": "Svizzera",
-        "governo": "Repubblica federale collegiale",
+        "governo": "Confederazione",
         "bandiera": "https://flagcdn.com/w320/ch.png"
     },
     {
@@ -22,7 +22,7 @@ const countriesData = [
     },
     {
         "nazione": "Belgio",
-        "governo": "Monarchia costituzionale parlamentare (Stato federale)",
+        "governo": "Monarchia costituzionale parlamentare ",
         "bandiera": "https://flagcdn.com/w320/be.png"
     },
     {
@@ -37,12 +37,12 @@ const countriesData = [
     },
     {
         "nazione": "Monaco",
-        "governo": "Monarchia costituzionale",
+        "governo": "Monarchia costituzionale parlamentare",
         "bandiera": "https://flagcdn.com/w320/mc.png"
     },
     {
         "nazione": "Liechtenstein",
-        "governo": "Monarchia costituzionale (principato)",
+        "governo": "Monarchia costituzionale parlamentare",
         "bandiera": "https://flagcdn.com/w320/li.png"
     },
     {
@@ -62,7 +62,7 @@ const countriesData = [
     },
     {
         "nazione": "Andorra",
-        "governo": "Diarchia parlamentare (coprincipato)",
+        "governo": "Principato parlamentare",
         "bandiera": "https://flagcdn.com/w320/ad.png"
     },
     {
@@ -97,7 +97,7 @@ const countriesData = [
     },
     {
         "nazione": "Finlandia",
-        "governo": "Repubblica semipresidenziale",
+        "governo": "Repubblica parlamentare",
         "bandiera": "https://flagcdn.com/w320/fi.png"
     },
     {
@@ -117,7 +117,7 @@ const countriesData = [
     },
     {
         "nazione": "Polonia",
-        "governo": "Repubblica semipresidenziale",
+        "governo": "Repubblica  parlamentare",
         "bandiera": "https://flagcdn.com/w320/pl.png"
     },
     {
@@ -132,7 +132,7 @@ const countriesData = [
     },
     {
         "nazione": "Ungheria",
-        "governo": "Repubblica parlamentare (regime illiberale)",
+        "governo": "Repubblica parlamentare ",
         "bandiera": "https://flagcdn.com/w320/hu.png"
     },
     {
@@ -147,12 +147,12 @@ const countriesData = [
     },
     {
         "nazione": "Bosnia ed Erzegovina",
-        "governo": "Repubblica parlamentare collegiale (Stato federale)",
+        "governo": "Repubblica parlamentare ",
         "bandiera": "https://flagcdn.com/w320/ba.png"
     },
     {
         "nazione": "Serbia",
-        "governo": "Repubblica semipresidenziale",
+        "governo": "Repubblica parlamentare",
         "bandiera": "https://flagcdn.com/w320/rs.png"
     },
     {
@@ -187,7 +187,7 @@ const countriesData = [
     },
     {
         "nazione": "Moldavia",
-        "governo": "Repubblica semipresidenziale",
+        "governo": "Repubblica parlamentare",
         "bandiera": "https://flagcdn.com/w320/md.png"
     },
     {
@@ -197,17 +197,17 @@ const countriesData = [
     },
     {
         "nazione": "Bielorussia",
-        "governo": "Repubblica presidenziale autoritaria",
+        "governo": "Repubblica presidenziale ",
         "bandiera": "https://flagcdn.com/w320/by.png"
     },
     {
         "nazione": "Russia",
-        "governo": "Repubblica federale presidenziale autoritaria",
+        "governo": "Repubblica  presidenziale ",
         "bandiera": "https://flagcdn.com/w320/ru.png"
     },
     {
         "nazione": "Lituania",
-        "governo": "Repubblica semipresidenziale",
+        "governo": "Repubblica parlamentare",
         "bandiera": "https://flagcdn.com/w320/lt.png"
     },
     {
@@ -226,20 +226,14 @@ let quizData = [];
 
 // All possible government types for generating wrong options
 const allGovernmentTypes = [
-    "Repubblica semipresidenziale",
-    "Repubblica parlamentare federale",
-    "Repubblica federale collegiale",
-    "Monarchia costituzionale parlamentare (Stato federale)",
-    "Monarchia costituzionale parlamentare",
-    "Monarchia costituzionale",
-    "Monarchia costituzionale (principato)",
-    "Repubblica parlamentare",
-    "Diarchia parlamentare (coprincipato)",
-    "Monarchia assoluta elettiva (teocrazia)",
-    "Repubblica parlamentare (regime illiberale)",
-    "Repubblica parlamentare collegiale (Stato federale)",
-    "Repubblica presidenziale autoritaria",
-    "Repubblica federale presidenziale autoritaria"
+  "Repubblica semipresidenziale",
+  "Repubblica parlamentare federale",
+  "Confederazione",
+  "Monarchia costituzionale parlamentare",
+  "Repubblica parlamentare",
+  "Monarchia assoluta elettiva (teocrazia)",
+  "Principato parlamentare",
+  "Repubblica presidenziale"
 ];
 
 // Function to generate wrong options
